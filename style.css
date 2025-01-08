@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   margin-top: 30px;
-  /* padding: 20px; */
+  padding: 10px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -102,8 +102,9 @@ form div {
 
 .note {
   margin-bottom: 20px;
+  padding: 20px;
 }
-@media screen and (max-width: 570px)
+@media screen and (max-width: 600px)
 {
   .main{
     width: 570px;
@@ -111,5 +112,7 @@ form div {
   h3{
     font-size: 24px;
   }
- 
+  form{
+    width: 90%;
+  }
 }
