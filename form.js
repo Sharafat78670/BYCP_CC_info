@@ -149,7 +149,7 @@ document.getElementById("registrationForm").addEventListener("submit", function 
   event.preventDefault();
 
   const formData = new FormData(this);
-  fetch("https://brighters.org/submit.php", {
+  fetch("http://localhost/submit.php", {
     method: "POST",
     body: formData,
   })
