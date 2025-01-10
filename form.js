@@ -149,7 +149,7 @@ document.getElementById("registrationForm").addEventListener("submit", function 
   event.preventDefault();
 
   const formData = new FormData(this);
-  fetch("http://localhost/submit.php", {
+  fetch("https://script.google.com/macros/s/AKfycbws8QfFCUa6rrsvTqSGfwAEwgYgby5lL-Z6IzAhrH4C9EIbJUWl0WaPY9rfwRPyyFhkKA/exec", {
     method: "POST",
     body: formData,
   })
